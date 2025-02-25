@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "PIXLR_CLIENT_KEY": "@pixlr-client-key",
+    "PIXLR_CLIENT_SECRET": "@pixlr-client-secret"
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next"
+}
